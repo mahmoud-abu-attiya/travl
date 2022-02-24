@@ -86,8 +86,9 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Travel <i className="fa-solid fa-earth-africa"></i>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            TRVL
+            <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
           <i className={click ? "fa-solid fa-times" : "fa-solid fa-bars"}></i>

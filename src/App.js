@@ -5,10 +5,12 @@ import Home from './Components/pages/Home';
 import Services from './Components/pages/Services';
 import Products from './Components/pages/Products';
 import SignUp from './Components/pages/SignUp';
+import Loading from './Components/Loading/Loading';
 
 function App() {
   return (
     <Router>
+      <Loading />
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
